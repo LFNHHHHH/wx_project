@@ -1,0 +1,42 @@
+page{
+  background-color: #fff;
+}
+.shop{
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ddd;
+  display: flex;
+  position: relative
+}
+.shop_image{
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 20rpx;
+}
+.shop_info{
+  width: 520rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+}
+.shop_title{
+  font-size: 16px;
+  color: #333;
+  width: 370rpx;
+}
+.shop_star{
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+}
+.star_after{
+  color: #e2e2e2;
+}
+.star_before{
+  color: #f19e38;
+  position: absolute;
+  left: 0rpx;
+  top: 0rpx;
+  overflow: hidden;
+}

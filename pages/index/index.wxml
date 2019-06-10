@@ -1,0 +1,29 @@
+<!-- 轮播 -->
+<view class="container">
+  <swiper indicator-dots="ture" autoplay="ture" interval="3000" duration="500" circular>
+    <swiper-item wx:for="{{ sliderList }}" wx:key="id">
+      <image src="{{ item.image }}" lazy-load mode="aspectFill"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 九宫格导航 -->
+<view class='nav'>
+  <navigator wx:for="{{ navList }}" wx:key="id" class='itemcon border_right' url='/pages/shopList/shopList?cat={{ item.id }}&title={{ item.name }}'>
+    <image src='{{ item.icon }}' lazy-load></image>
+    <text>{{ item.name }}</text>
+  </navigator>
+</view>
+
+<!-- 间隔 -->
+<view class='jiange'></view>
+
+<!-- 商家推荐、交友论坛 -->
+<view class='index_enter'>
+  <navigator class='index_img'>
+    <image src='../../assets/images/link-01.png'></image>
+  </navigator>
+  <navigator class='index_img'>
+    <image src='../../assets/images/link-02.png'></image>
+  </navigator>
+</view>

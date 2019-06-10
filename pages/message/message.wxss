@@ -1,0 +1,39 @@
+page{
+  background-color: #f1f1f1;
+}
+
+.card{
+  background-color: #fff;
+  border: 1rpx solid #ddd;
+  border-radius: 10rpx;
+  margin: 60rpx 20rpx;
+  padding: 20rpx 25rpx;
+  display: flex;
+  flex-direction: column
+}
+.card_title{
+  font-size: 20px;
+  margin-bottom: 20rpx;
+}
+.card_date{
+  font-size: 14px;
+  color: #ccc;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20rpx 0;
+}
+.card_img{
+  width: 100%;
+  height: 300rpx;
+}
+.card_desc{
+  font-size: 16px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+.card_read{
+  font-size: 14px;
+  color: #666;
+}

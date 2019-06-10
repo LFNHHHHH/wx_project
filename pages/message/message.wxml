@@ -1,0 +1,23 @@
+<view class="card">
+  <text class='card_title'>标题111</text>
+  <text class='card_date'>2018-05-07</text>
+  <image class='card_img' src='//gw.alicdn.com/imgextra/i1/191/O1CN01vhODtQ1DHWAmSD4OP_!!191-0-luban.jpg_790x10000Q75.jpg_.webp' mode='aspectFill'></image>
+  <text class='card_desc'>越努力，越幸运~</text>
+  <text class='card_read arrow'>查看详情</text>
+</view>
+
+<view class="card">
+  <text class='card_title'>标题111</text>
+  <text class='card_date'>2018-05-07</text>
+  <image class='card_img' src='//gw.alicdn.com/imgextra/i1/191/O1CN01vhODtQ1DHWAmSD4OP_!!191-0-luban.jpg_790x10000Q75.jpg_.webp' mode='aspectFill'></image>
+  <text class='card_desc'>越努力，越幸运~</text>
+  <text class='card_read arrow'>查看详情</text>
+</view>
+
+<view class="card">
+  <text class='card_title'>标题111</text>
+  <text class='card_date'>2018-05-07</text>
+  <image class='card_img' src='//gw.alicdn.com/imgextra/i1/191/O1CN01vhODtQ1DHWAmSD4OP_!!191-0-luban.jpg_790x10000Q75.jpg_.webp' mode='aspectFill'></image>
+  <text class='card_desc'>越努力，越幸运~</text>
+  <text class='card_read arrow'>查看详情</text>
+</view>
